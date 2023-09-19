@@ -1,11 +1,21 @@
 <template>
-    <div class="layout__container">
+    
+    <div class=" layout__container">
+        <Header></Header>
         <slot />
     </div>
 </template>
 
+<script>
+import Header from '../components/Header.vue'
+    export default {
+  components: { Header },
+        
+    }
+</script>
+
 <style lang="postcss" scoped>
 .layout__container {
-    @apply bg-red-100;
+    height : 100vh;
 }
 </style>

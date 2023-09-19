@@ -12,6 +12,7 @@
   "dependencies": {
     "@nuxtjs/tailwindcss": "latest",
     "@pinia/nuxt": "latest",
+    "@storyblok/nuxt-2": "^2.0.18",
     "@vueuse/core": "latest",
     "nuxt": "latest",
     "pinia": "latest"
